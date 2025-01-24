@@ -8,14 +8,14 @@ import logging
 from plyer import notification
 import platform
 
-MONITORED_PATHS = ["/etc/passwd", "/etc/shadow", "/etc/hosts"]
+MONITORED_PATHS = ["/etc/passwd", "/etc/shadow", "/etc/hosts"] # add more files that you want to monitor
 HASH_STORE = "file_hashes.json"
 CHECK_INTERVAL = 10
 SUSPICIOUS_IPS = ["192.168.1.100", "10.0.0.200"]
 MAX_NETWORK_THRESHOLD = 1000000
 
 if platform.system() == 'Windows':
-    MONITORED_PATHS = [os.path.join("C:", "Windows", "System32", "drivers", "etc", "hosts")]
+    MONITORED_PATHS = [os.path.join("C:", "Windows", "System32", "drivers", "etc", "hosts")] # add more files that you want to monitor
 
 logging.basicConfig(
     level=logging.INFO,
@@ -56,21 +56,21 @@ def show_alert(message):
             notification.notify(
                 title="Security Alert!",
                 message=message,
-                timeout=15,
+                timeout=10,
                 app_icon=None
             )
         elif platform.system() == 'Darwin':
             notification.notify(
                 title="Security Alert!",
                 message=message,
-                timeout=15,
+                timeout=10,
                 app_icon=None
             )
         else:
             subprocess.run([
                 "notify-send",
                 "-u", "critical",
-                "-t", "15000",
+                "-t", "10000",
                 "-i", "dialog-warning",
                 "Security Alert!",
                 message
