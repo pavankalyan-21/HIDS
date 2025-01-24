@@ -36,6 +36,15 @@ This script monitors changes in critical system files and network activity, prov
 
 5. The script will start monitoring files and network activity, logging alerts, and sending notifications for suspicious events.
 
+## Examples
+
+Here are some example files to help you understand the HIDS functionality:
+
+- [file_hashes.json](examples/file_hashes.json): Contains example hashes for monitored files.
+- [hids.log](examples/hids.log): A sample log file showing HIDS alerts and monitoring activity.
+
+To view these files, navigate to the `examples/` directory in the repository or click the links above.
+
 ## Alerts
 
 - **File Monitoring**:
