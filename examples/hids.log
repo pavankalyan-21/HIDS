@@ -1,0 +1,64 @@
+2025-01-24 12:06:49,033 - INFO - Starting HIDS monitoring system...
+2025-01-24 12:06:49,033 - INFO - New file added to monitoring: /etc/passwd
+2025-01-24 12:06:49,083 - INFO - New file added to monitoring: /etc/shadow
+2025-01-24 12:06:49,125 - INFO - New file added to monitoring: /etc/hosts
+2025-01-24 12:06:49,182 - INFO - No suspicious network activity detected.
+2025-01-24 12:06:59,204 - INFO - No suspicious network activity detected.
+2025-01-24 12:07:05,278 - INFO - HIDS monitoring stopped by user.
+2025-01-24 12:07:09,333 - INFO - Starting HIDS monitoring system...
+2025-01-24 12:07:09,346 - INFO - No suspicious network activity detected.
+2025-01-24 12:07:14,570 - INFO - HIDS monitoring stopped by user.
+2025-01-24 12:09:26,038 - INFO - Starting HIDS monitoring system...
+2025-01-24 12:09:26,049 - INFO - No suspicious network activity detected.
+2025-01-24 12:09:36,058 - INFO - No suspicious network activity detected.
+2025-01-24 12:09:46,061 - WARNING - WARNING: High network traffic detected! Possible flood.
+2025-01-24 12:09:46,106 - INFO - No suspicious network activity detected.
+2025-01-24 12:10:25,039 - WARNING - WARNING: High network traffic detected! Possible flood.
+2025-01-24 12:10:26,255 - INFO - No suspicious network activity detected.
+2025-01-24 12:10:36,255 - WARNING - ALERT: File modified: /etc/passwd
+2025-01-24 12:10:36,291 - WARNING - ALERT: File modified: /etc/shadow
+2025-01-24 12:10:36,349 - WARNING - WARNING: High network traffic detected! Possible flood.
+2025-01-24 12:10:36,424 - INFO - No suspicious network activity detected.
+2025-01-24 12:10:46,433 - INFO - No suspicious network activity detected.
+2025-01-24 12:10:56,434 - WARNING - ALERT: File modified: /etc/passwd
+2025-01-24 12:10:56,470 - WARNING - ALERT: File modified: /etc/shadow
+2025-01-24 12:10:56,526 - INFO - No suspicious network activity detected.
+2025-01-24 12:11:06,536 - INFO - No suspicious network activity detected.
+2025-01-24 12:11:10,363 - INFO - HIDS monitoring stopped by user.
+2025-01-24 12:47:52,345 - INFO - Starting HIDS monitoring system...
+2025-01-24 12:47:52,394 - INFO - No suspicious network activity detected.
+2025-01-24 12:48:02,410 - INFO - No suspicious network activity detected.
+2025-01-24 12:48:12,422 - INFO - No suspicious network activity detected.
+2025-01-24 12:48:22,425 - WARNING - WARNING: High network traffic detected! Possible flood.
+2025-01-24 12:48:22,557 - INFO - No suspicious network activity detected.
+2025-01-24 12:48:32,565 - WARNING - WARNING: High network traffic detected! Possible flood.
+2025-01-24 12:48:32,611 - INFO - No suspicious network activity detected.
+2025-01-24 12:48:42,705 - WARNING - WARNING: High network traffic detected! Possible flood.
+2025-01-24 12:48:42,831 - INFO - No suspicious network activity detected.
+2025-01-24 12:48:52,834 - WARNING - WARNING: High network traffic detected! Possible flood.
+2025-01-24 12:48:52,873 - INFO - No suspicious network activity detected.
+2025-01-24 12:49:02,884 - INFO - No suspicious network activity detected.
+2025-01-24 12:49:12,900 - INFO - No suspicious network activity detected.
+2025-01-24 12:49:22,919 - INFO - No suspicious network activity detected.
+2025-01-24 12:49:32,937 - INFO - No suspicious network activity detected.
+2025-01-24 12:49:42,950 - INFO - No suspicious network activity detected.
+2025-01-24 12:49:52,959 - INFO - No suspicious network activity detected.
+2025-01-24 12:50:02,973 - INFO - No suspicious network activity detected.
+2025-01-24 12:50:12,993 - INFO - No suspicious network activity detected.
+2025-01-24 12:50:23,010 - INFO - No suspicious network activity detected.
+2025-01-24 12:50:33,028 - INFO - No suspicious network activity detected.
+2025-01-24 12:50:43,029 - WARNING - ALERT: File modified: /etc/passwd
+2025-01-24 12:50:43,058 - WARNING - ALERT: File modified: /etc/shadow
+2025-01-24 12:50:43,094 - INFO - No suspicious network activity detected.
+2025-01-24 12:50:53,105 - INFO - No suspicious network activity detected.
+2025-01-24 12:51:03,123 - INFO - No suspicious network activity detected.
+2025-01-24 12:51:13,141 - INFO - No suspicious network activity detected.
+2025-01-24 12:51:23,159 - INFO - No suspicious network activity detected.
+2025-01-24 12:51:33,177 - INFO - No suspicious network activity detected.
+2025-01-24 12:51:43,196 - INFO - No suspicious network activity detected.
+2025-01-24 12:51:53,212 - INFO - No suspicious network activity detected.
+2025-01-24 12:52:03,228 - INFO - No suspicious network activity detected.
+2025-01-24 12:52:13,247 - INFO - No suspicious network activity detected.
+2025-01-24 12:52:23,266 - INFO - No suspicious network activity detected.
+2025-01-24 12:52:33,279 - INFO - No suspicious network activity detected.
+2025-01-24 12:52:40,978 - INFO - HIDS monitoring stopped by user.
